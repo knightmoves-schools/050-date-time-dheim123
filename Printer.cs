@@ -1,12 +1,12 @@
-﻿using System.Text;
+using System;
 
 namespace knightmoves;
 
-public class Printer{
-    
-    public string Print(string dateString){
-        Year = dateString.Parse;
+public class Printer {
+    public string Print(string dateString) {
+        DateTime parsedDate = DateTime.Parse(dateString);
         
-        return "Year";
+        return parsedDate.Year.ToString();
     }
 }
+
