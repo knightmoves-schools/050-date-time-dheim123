@@ -5,6 +5,8 @@ namespace knightmoves;
 public class Printer{
     
     public string Print(string dateString){
-        return "";
+        Year = dateString.Parse
+        
+        return "Year";
     }
 }
